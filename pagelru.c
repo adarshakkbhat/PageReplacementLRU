@@ -30,8 +30,8 @@ struct Page
             if(page[i].data==item)
             {
                 fl=1;
-                r++;
                 page[i].rank=r;
+                r++;
                 break;
             }
         }
